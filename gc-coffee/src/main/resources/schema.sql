@@ -5,6 +5,6 @@ CREATE TABLE products
     category VARCHAR(50) NOT NULL,
     price bigint NOT NULL,
     description VARCHAR(500) DEFAULT NULL,
-    created_at datetime NOT NULL,
-    updated_at datetime DEFAULT NULL
+    created_at datetime(6) NOT NULL,
+    updated_at datetime(6) DEFAULT NULL
 );
